@@ -10,11 +10,11 @@ posts = [
     },
     {
         "titulo": "Post 2",
-        "texto": "Olha eu aqui de novo 2"
+        "texto": "Olha eu aqui de novo"
     },
-    {
+       {
         "titulo": "Post 3",
-        "texto": "Olha eu aqui de novo 3"
+        "texto": "Novo Post"
     }
 ]
 
