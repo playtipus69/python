@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 
 {% block corpo %}
-<ul class="entradas">
+  <ul class="entradas">
   {% for entrada in entradas %}
     <li><h2>{{ entrada.titulo }}</h2>{{ entrada.texto|safe }}
   {% else %}
