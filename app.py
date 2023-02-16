@@ -7,8 +7,10 @@ DATABASE = "blog.bd"
 app.config.from_object(__name__)
 
 # USER MOCKS
-USERNAME = ""
+USERNAME = "admin"
 PASSWORD = "admin"
+USERNAME = "Playtipus"
+PASSWORD = "test"
 
 def conectar_bd():
     return sqlite3.connect(DATABASE)
